@@ -1,0 +1,41 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+controller/node_modules/
+server/node_modules/
+
+# Expo
+controller/.expo/
+controller/dist/
+controller/web-build/
+controller/android/
+controller/assets/
+controller/controller_app.keystore
+
+controller/.env
+
+# Native
+controller/*.orig.*
+controller/*.jks
+controller/*.p8
+controller/*.p12
+controller/*.key
+controller/*.mobileprovision
+
+# Metro
+controller/.metro-health-check*
+
+# debug
+controller/npm-debug.*
+controller/yarn-debug.*
+controller/yarn-error.*
+
+# macOS
+controller/.DS_Store
+controller/*.pem
+
+# local env files
+controller/.env*.local
+
+# typescript
+controller/*.tsbuildinfo
